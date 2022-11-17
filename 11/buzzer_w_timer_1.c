@@ -19,7 +19,7 @@ SIGNAL(SIG_OVERFLOW0) {
 
 int main() {
   DDRB = 0x10;
-  TCCR0 = 0x03; // 8분주
+  TCCR0 = 0x03; // 32분주
   TIMSK = 0x01; // Overflow
   TCNT0 = DO_data;
   sei(); // 전역 인터럽트

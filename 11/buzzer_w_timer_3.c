@@ -12,7 +12,7 @@
 #define LA 5
 #define SI 6
 #define DDO 7
-#define EOS - 1
+#define EOS -1
 
 #define ON 1
 #define OFF 0

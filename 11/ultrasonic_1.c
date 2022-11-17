@@ -23,7 +23,7 @@ int main(void)
 
  while(1)
  {
-  TCCR1B = 0x02;  // 분주비 설정
+  TCCR1B = 0x02;  // 분주비 설정  0b00000010
   PORTE &= ~(1<<TRIG);
   _delay_us(10);
   PORTE |= (1<<TRIG);
